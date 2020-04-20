@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.springframework.org/schema/beans     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+     
+    <!-- Definition For Employee Bean -->
+    <bean id="employee" class="com.setter.injection.Employee">     
+       
+        <property name="emp_id">
+            <value>12345</value>
+        </property>
+        <property name="emp_name">
+            <value>Anjali</value>
+        </property>
+        <property name="salary">
+            <value>40000.0</value>
+        </property>
+        <property name="BU">
+            <value>PES-BU</value>
+        </property>
+        <property name="age">
+            <value>30</value>
+        </property>
+    </bean>
+</beans>
